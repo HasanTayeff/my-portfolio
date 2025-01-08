@@ -1,0 +1,353 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Work Sans", serif;
+
+}
+header{
+    background-color: #FFF8F3;
+    width: 100%;
+    height: 800px;
+    /* display: flex; */
+    background-image: url(images/developer.png), url(images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position:left, bottom right;
+
+}
+.all-btn{
+    height: 54px;
+    width: 127px;
+    background-color: #FD6E0A;
+    color: white;
+    border-radius: 6px;
+
+
+}
+
+#header-container{
+    display: flex;
+
+
+}
+/* #header-container img{
+
+    margin: 45px;
+    padding-left: 30px;
+} */
+
+
+/* .header-bg{
+    height: 440px;
+    width: 880px;
+    justify-content:end;
+    align-items: ;
+
+
+} */
+
+
+
+
+.header-nav{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 45px;
+    width: 974px;
+    height: 57px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+
+}
+nav ul{
+    width: 332px;
+    height: 56px;
+    margin-right: 35px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    
+}
+
+nav h3{
+    height: 51px;
+    width: 102px;
+    font: 800;
+    font-size: 38px;
+
+}
+nav h3 .color{
+    color: #FD6E0A;
+
+
+}
+
+nav ul li {
+    list-style: none;
+
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #474747;
+    font-size: 17px;
+
+}
+/* Header Container Second Part */
+
+#header-container2{
+
+    display: flex;
+    justify-content: space-around;
+    margin-left: 180px;
+    /* align-items: end;  */
+
+
+
+
+}
+
+.hardy-intro{
+    height: 302px;
+    width: 497px;
+    margin-top: 180px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+ 
+
+
+}
+
+.intro1{
+    font-size: 38px;
+    font-weight: 600;
+    color: #474747;
+
+
+
+}
+
+.intro2{
+    font-size: 72px;
+    font-weight: 700;
+    color: #181818;
+
+    
+}
+
+.intro3{
+
+    font-size: 15px;
+    color: #757575;
+
+    
+}
+
+
+
+
+
+.hardy-img img{
+ 
+    height:574px;
+    width: 496px;
+    margin-top: 123px;
+
+
+
+}
+
+/* Main Area */
+
+#width{
+    /* width: 969px; */
+
+
+}
+
+main{
+    margin-top: 109px;
+    width: 969px;
+    margin-left: auto;
+    margin-right: auto;
+
+
+
+}
+
+.box-pink{
+    background-color: #FFF8F3;
+    height: 467px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.box-white{
+    width: 707px;
+    height: 244px;
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid rgb(240, 236, 236);
+    /* border: 2px solid black; */
+    /* margin: auto;
+    margin: 0 auto; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+
+
+}
+.align-center{
+    text-align: center;
+    font-size: 29px;
+    font-weight: 700;
+    color: #181818;
+
+
+
+}
+
+
+/* Why does not it works? Why I needed to put CSS styles to .align-center when the same thing works for .box-white p? */
+
+/* .align-center h3{
+    font-size: 29px;
+    font-weight: 700;
+    color: #181818;
+
+
+} */
+
+
+
+.design{
+    font-size: 15px;
+    margin-left: 4px;
+    margin-right: 4px;
+    margin-top: 4px;
+
+
+
+}
+
+
+.box-white p{
+    /* font-size: 15px; */
+
+
+}
+
+#flex-display{
+    display: flex;
+    justify-content: center;
+    gap: 28px;
+    /* align-items: center; */
+
+
+}
+
+.p-color{
+    text-align: center;
+
+
+
+}
+.p2-color{
+    font-weight: bold;
+
+
+
+}
+
+/* 2nd Part of main area */
+
+
+#main-area2{
+    margin-top: 119px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+
+
+
+}
+.description{
+
+
+}
+
+.description-title{
+
+
+}
+
+.description-para{
+
+
+}
+
+#flex-item{
+    display: flex;
+    gap: 18px;
+    justify-content: space-between;
+
+
+}
+
+.box1{
+    height: 320px;
+    width: 226px;
+    border-radius: 8px;
+    background-color: #ebebeb;
+    /* margin: 10px; */
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* padding: 10px; */
+
+}
+
+.image{
+    text-align: left;
+    margin-top: 20px;
+    padding: 10px;
+
+}
+.box1 h4{
+    margin-top: 20px;
+    padding: 10px;
+
+
+
+}
+.box1 p{
+    margin-top: 20px;
+    padding: 10px;
+
+
+}
+
+
+
+
+
+
+
+
+
+
