@@ -532,6 +532,13 @@ footer{
 
 }
 
+.icon-gap{
+    display: flex;
+    gap: 20px;
+
+
+}
+
 .footer2{
     height: 400px;
     width: 400px;
