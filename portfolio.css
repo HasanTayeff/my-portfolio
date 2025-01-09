@@ -543,9 +543,10 @@ footer{
 }
 
 .form-footer{
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* gap: 15px; */
+
 
 
 
@@ -555,7 +556,7 @@ footer{
     height: 54px;
     border: none;
     padding-left: 15px;
-
+    margin-bottom: 15px;
 
 
 
@@ -566,6 +567,7 @@ footer{
     height: 153px;
     border: none;
     padding-left: 15px;
+    margin-bottom: 15px;
     
 
 
